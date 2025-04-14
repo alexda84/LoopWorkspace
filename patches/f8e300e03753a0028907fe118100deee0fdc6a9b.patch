@@ -1,0 +1,49 @@
+From f8e300e03753a0028907fe118100deee0fdc6a9b Mon Sep 17 00:00:00 2001
+From: alexda84 <69979639+alexda84@users.noreply.github.com>
+Date: Mon, 14 Apr 2025 17:42:07 +0200
+Subject: [PATCH] Update ExponentialInsulinModelPreset.swift
+
+---
+ LoopKit/Insulin/ExponentialInsulinModelPreset.swift | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/LoopKit/LoopKit/Insulin/ExponentialInsulinModelPreset.swift b/LoopKit/LoopKit/Insulin/ExponentialInsulinModelPreset.swift
+index 5321f5d00..32409f021 100644
+--- a/LoopKit/LoopKit/Insulin/ExponentialInsulinModelPreset.swift
++++ b/LoopKit/LoopKit/Insulin/ExponentialInsulinModelPreset.swift
+@@ -21,9 +21,9 @@ extension ExponentialInsulinModelPreset {
+     public var actionDuration: TimeInterval {
+         switch self {
+         case .rapidActingAdult:
+-            return .minutes(120)
++            return .minutes(240)
+         case .rapidActingChild:
+-            return .minutes(120)
++            return .minutes(240)
+         case .fiasp:
+             return .minutes(360)
+         case .lyumjev:
+@@ -36,9 +36,9 @@ extension ExponentialInsulinModelPreset {
+     public var peakActivity: TimeInterval {
+         switch self {
+         case .rapidActingAdult:
+-            return .minutes(45)
++            return .minutes(50)
+         case .rapidActingChild:
+-            return .minutes(45)
++            return .minutes(50)
+         case .fiasp:
+             return .minutes(55)
+         case .lyumjev:
+@@ -51,9 +51,9 @@ extension ExponentialInsulinModelPreset {
+     public var delay: TimeInterval {
+         switch self {
+         case .rapidActingAdult:
+-            return .minutes(10)
++            return .minutes(5)
+         case .rapidActingChild:
+-            return .minutes(10)
++            return .minutes(5)
+         case .fiasp:
+             return .minutes(10)
+         case .lyumjev:

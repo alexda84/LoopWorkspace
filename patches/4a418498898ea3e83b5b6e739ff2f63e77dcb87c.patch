@@ -7,10 +7,10 @@ Subject: [PATCH] Update Pod.swift
  OmniBLE/OmnipodCommon/Pod.swift | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/OmniBLE/OmniBLE/OmnipodCommon/Pod.swift b/OmniBLE/OmniBLE/OmnipodCommon/Pod.swift
+diff --git a/OmniBLE/OmnipodCommon/Pod.swift b/OmniBLE/OmnipodCommon/Pod.swift
 index d0daef2e..88334b23 100644
---- a/OmniBLE/OmniBLE/OmnipodCommon/Pod.swift
-+++ b/OmniBLE/OmniBLE/OmnipodCommon/Pod.swift
+--- a/OmniBLE/OmnipodCommon/Pod.swift
++++ b/OmniBLE/OmnipodCommon/Pod.swift
 @@ -79,7 +79,7 @@ public struct Pod {
      // Checked to verify it agrees with value returned by pod during the pairing process.
      public static let cannulaInsertionUnits = 0.5

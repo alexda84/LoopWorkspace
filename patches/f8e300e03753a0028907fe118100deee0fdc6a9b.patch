@@ -7,10 +7,10 @@ Subject: [PATCH] Update ExponentialInsulinModelPreset.swift
  LoopKit/Insulin/ExponentialInsulinModelPreset.swift | 12 ++++++------
  1 file changed, 6 insertions(+), 6 deletions(-)
 
-diff --git a/LoopKit/LoopKit/Insulin/ExponentialInsulinModelPreset.swift b/LoopKit/LoopKit/Insulin/ExponentialInsulinModelPreset.swift
+diff --git a/LoopKit/Insulin/ExponentialInsulinModelPreset.swift b/LoopKit/Insulin/ExponentialInsulinModelPreset.swift
 index 5321f5d00..32409f021 100644
---- a/LoopKit/LoopKit/Insulin/ExponentialInsulinModelPreset.swift
-+++ b/LoopKit/LoopKit/Insulin/ExponentialInsulinModelPreset.swift
+--- a/LoopKit/Insulin/ExponentialInsulinModelPreset.swift
++++ b/LoopKit/Insulin/ExponentialInsulinModelPreset.swift
 @@ -21,9 +21,9 @@ extension ExponentialInsulinModelPreset {
      public var actionDuration: TimeInterval {
          switch self {

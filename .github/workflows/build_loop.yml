@@ -281,8 +281,8 @@ jobs:
           #curl https://github.com/alexda84/OmniBLE/commit/4a418498898ea3e83b5b6e739ff2f63e77dcb87c.patch | git apply --directory=OmniBLE -v --whitespace=fix
           #curl https://github.com/alexda84/Loop/commit/797d56adca758d1ab5ec1554f54ed79b08c2917b.patch | git apply --directory=Loop -v --whitespace=fix
           curl https://github.com/alexda84/Loop/commit/72a60c1685c5ab9464f25fed82e40f05654c6fd6.patch | git apply --directory=Loop -v --whitespace=fix
-          #curl https://github.com/alexda84/OmniBLE/commit/8131772291fd44c5d3255aa41d00e9f93f530b25.patch | git apply --directory=OmniBLE -v --whitespace=fix
-          curl https://github.com/alexda84/LoopKit/commit/615d679c6d36b984b3d5cfba26ec89a9145b3b52.patch.patch | git apply --directory=LoopKit -v --whitespace=fix
+          curl https://github.com/alexda84/OmniBLE/commit/db877ab8fe7d2717cd2c8e1e90b53ab663f6c76a.patch | git apply --directory=OmniBLE -v --whitespace=fix
+          curl https://github.com/alexda84/LoopKit/commit/023a3997e64478526b208c747d21b3bb6df0f045.patch | git apply --directory=LoopKit -v --whitespace=fix
       
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables

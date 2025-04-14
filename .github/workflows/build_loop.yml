@@ -278,7 +278,9 @@ jobs:
           # Adding comments (#) may be useful to easily tell the individual patches apart.
           
           curl https://github.com/alexda84/Loop/commit/797d56adca758d1ab5ec1554f54ed79b08c2917b.patch | git apply --directory=Loop -v --whitespace=fix
+          curl https://github.com/alexda84/Loop/commit/db05ce752d5eecd55f9795bc83004bee5741adab.patch | git apply --directory=Loop -v --whitespace=fix
           curl https://github.com/alexda84/OmniBLE/commit/4a418498898ea3e83b5b6e739ff2f63e77dcb87c.patch | git apply --directory=OmniBLE -v --whitespace=fix
+          curl https://github.com/alexda84/LoopKit/commit/387e8001ffa9e6f6a3acf09e35381e69a8a6c444.patch | git apply --directory=LoopKit -v --whitespace=fix
       
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
